@@ -67,14 +67,17 @@
         <p>São criadsad com a tag &lt; table&gt;, as linhas de tabela são criadas com a tag &lt;tr&gt; e a celulas em linhas são criadas com a tag &lt;td&gt; exemplo</p>
         
         <table>
-            <capiton>Churrasco</capiton>
+            <caption>Churrasco</caption>
+            
             <tr>
-                <td>item</td>
-                <td>descrição</td>
-                <td>valor</td>
+                <th>Categoria</th>
+                <th>item</th>
+                <th>descrição</th>
+                <th>valor</th>
             </tr>
             
             <tr>
+                <td rowspan="2">Comida</td>
                 <td>1</td>
                 <td>Carne Porco</td>
                 <td>23,00</td>
@@ -87,6 +90,7 @@
             </tr>
             
             <tr>
+                <td rowspan="2">Bebida</td>
                 <td>3</td>
                 <td>Refrigerante</td>
                 <td>10,00</td>
@@ -96,6 +100,9 @@
                 <td>4</td>
                 <td>Cerveja</td>
                 <td>5,00</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total</td>
             </tr>
         </table>
         
