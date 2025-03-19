@@ -1,0 +1,17 @@
+/*
+a regra css é criada com a sintaxe abaixo
+
+seletor{
+    propriedade:valor;
+
+}
+seletor é quem identifica oonde se aplica a regra
+propriedade é uma caracteristica modificadavel com css
+
+valor é valor da propriedade
+
+*/
+
+*{
+    border: 1px solid black;
+}
